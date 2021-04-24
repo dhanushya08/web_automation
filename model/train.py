@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 from __future__ import print_function
 from __future__ import absolute_import
-__author__ = 'Tony Beltramelli - www.tonybeltramelli.com'
+
 
 import tensorflow as tf
-sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
+sess = tf.compat.v1.Session(config=tf.compat.v1.ConfigProto(log_device_placement=True))
 
 import sys
 
