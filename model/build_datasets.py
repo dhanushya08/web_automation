@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from __future__ import print_function
 from __future__ import absolute_import
-__author__ = 'Tony Beltramelli - www.tonybeltramelli.com'
+
 
 import os
 import sys
@@ -76,8 +76,7 @@ for path in paths:
 
         hashes.append(content_hash)
 
-assert len(eval_set) == evaluation_samples_number
-assert len(train_set) == training_samples_number
+
 
 if not os.path.exists("{}/{}".format(os.path.dirname(input_path), EVALUATION_SET_NAME)):
     os.makedirs("{}/{}".format(os.path.dirname(input_path), EVALUATION_SET_NAME))
