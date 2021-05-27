@@ -1,4 +1,4 @@
-__author__ = 'Tony Beltramelli - www.tonybeltramelli.com'
+
 
 from keras.models import model_from_json
 
