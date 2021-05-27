@@ -1,4 +1,4 @@
-__author__ = 'Tony Beltramelli - www.tonybeltramelli.com'
+
 
 CONTEXT_LENGTH = 48
 IMAGE_SIZE = 256
